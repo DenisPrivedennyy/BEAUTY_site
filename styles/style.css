@@ -1,7 +1,21 @@
 @import url(./normalize.css);
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #F5F5F5;
+  font-family: 'Roboto';
+}
+
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .wrapper {
@@ -122,4 +136,57 @@ line-height: 16px;
 text-align: center;
 letter-spacing: 0.05em;
 color: #FFFFFF;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 38px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.chair_list {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.card {
+  padding: 25px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 255px; 
+  background-color: #FFF;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.chair_text {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+
+.chair_price {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.buy_button {
+  background: #F13C6E;
+  border-radius: 30px;
+  padding: 9px 40px;
+  color: #FFF;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
 }
