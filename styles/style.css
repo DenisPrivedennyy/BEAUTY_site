@@ -199,7 +199,6 @@ h2 {
 
 .bonus {
   display: flex;
-  /* justify-content: space-between; */
   width: 540px;
   background-color: #F13C6E;
   padding: 35px 45px 35px 40px;
@@ -229,7 +228,6 @@ h3 {
   padding-bottom: 9px;
   padding-left: 25px;
   padding-right: 50px;
-  /* width: 225px; */
   font-size: 14px;
   line-height: 16px;
   text-align: center;
@@ -250,7 +248,6 @@ input::placeholder {
   display: flex;
   justify-content: space-between;
   width: 540px;
-  /* gap: 90px; */
   background-color: #F13C6E;
   padding: 35px 45px 35px 40px;
   color: #FFF;
@@ -260,10 +257,6 @@ input::placeholder {
   padding-right: 125px;
   margin-bottom: 34px;
 }
-
-/* .map_info {
-  width: 175px;
-} */
 
 .map_link {
   background: #F13C6E;
@@ -288,36 +281,38 @@ input::placeholder {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1px;
+  gap: 2px;
 }
 
 .logo_item {
   background-color: #FFF;
-  padding: 35px 63px;
-  /* border: 1px solid #EFEFEF; */
+  padding: 35px 63px 35px 64px;
 }
+
+/* FOOTER */
 
 .categories {
   background-color: #FFF;
   padding-top: 60px;
-  padding-bottom: 38px;
+  padding-bottom: 60px;
+  margin-bottom: 2px;
 }
 
 .blocks_categories {
   display: flex;
   justify-content: space-between;
+  /* margin-bottom: 60px; */
 }
 
 .popular_categoreis {
   width: 250px;
-  margin-bottom: 60px;
 }
 
 .title_categories {
   padding-right: 155px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 140.62%;
+  line-height: 140%;
   margin-bottom: 30px;
 }
 
@@ -329,14 +324,19 @@ input::placeholder {
 .link_categories {
   display: block;
   margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 28px;
+  color: #828282;
 }
 
 .link_categories:last-child {
   margin-bottom: 0;
 }
 
-.line_footer {
-  margin-bottom: 37px;
+.contacts_info {
+  background-color: #FFF;
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 
 .contacts_block {
@@ -359,3 +359,19 @@ input::placeholder {
   background: #FFFFFF;
   border: 2px solid #F13C6E;
 }
+
+.footer_info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+  }
+
+  .footer_info a {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+  }
