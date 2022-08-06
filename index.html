@@ -14,26 +14,22 @@
 </head>
 <body>
   <header class="header">
-    <div class="wrapper">
-      <div class="header_link">
-        <a href="/" class="top_link">Доставка</a>
-        <a href="/" class="top_link">Оплата</a>
-        <a href="/" class="top_link">Отзывы</a>
-        <a href="/" class="top_link">Вопрос-ответ</a>
-        <a href="/" class="top_link">Контакты</a>
-      </div>
-    </div>  
+    <div class="top_link">
+      <a href="/" class="top_link_item">Доставка</a>
+      <a href="/" class="top_link_item">Оплата</a>
+      <a href="/" class="top_link_item">Отзывы</a>
+      <a href="/" class="top_link_item">Вопрос-ответ</a>
+      <a href="/" class="top_link_item">Контакты</a>
+    </div>
     <div class="header_info">
       <div class="wrapper">
         <div class="info">
-          <div class="logo">
-            <a href="/"><img src="./images/logo.png" alt="логотип"></a>
-          </div>
+          <a href="/"><img src="./images/logo.png" alt="логотип"></a>
           <div class="call_centr">
             <a href="tel:+88121234567">8 (812) 123-45-67</a>
             <button 
               type="button"
-              class="call_back_button">
+              class="call_centr_button">
               Обратный звонок
             </button>
           </div>
@@ -41,184 +37,151 @@
       </div>
       <div class="line"></div>
       <div class="wrapper">
-        <nav class="header_nav">
-          <a href="/" class="nav_link">Парикмахерская</a>
-          <a href="/" class="nav_link">Барбершоп</a>
-          <a href="/" class="nav_link">Маникюр</a>
-          <a href="/" class="nav_link">Педикюр</a>
-          <a href="/" class="nav_link">Массаж</a>
-          <a href="/" class="nav_link">Мебель</a>
+        <nav class="navigation">
+          <a href="/" class="navigation_link">Парикмахерская</a>
+          <a href="/" class="navigation_link">Барбершоп</a>
+          <a href="/" class="navigation_link">Маникюр</a>
+          <a href="/" class="navigation_link">Педикюр</a>
+          <a href="/" class="navigation_link">Массаж</a>
+          <a href="/" class="navigation_link">Мебель</a>
         </nav>
       </div>
     </div>
   </header>
   <main>
-    <section class="main_content">
+    <section class="main">
       <div class="wrapper">
         <h1>Супер кресло</h1>
-        <p class="main_content_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nobis iste fugit quibusdam nam laboriosam corporis harum rerum.
+        <p class="main_text">Текст акции всегда отражает суть, а не просто
+          болтовню, поэтому внимательнее
         </p>
-        <a href="/" class="main_content_button">Подробнее</a>
+        <a href="/" class="main_button">Подробнее</a>
       </div>
     </section>
-    <section class="chair">
-      <div class="wrapper">
+    <div class="wrapper">
+      <section class="chair">
         <h2>Специальные предложения</h2>
         <div class="chair_list">
           <div class="card">
             <img src="./images/chair.png" alt="кресло">
-            <p class="chair_text">Парикмахерское кресло "Норм" гидравлическое</p>
-            <p class="chair_price">9900 &#8381</p>
-            <a href="/" class="buy_button">Купить</a>
+            <p class="card_text">Парикмахерское кресло "Норм" гидравлическое</p>
+            <p class="card_price">9900 &#8381</p>
+            <a href="/" class="card_button">Купить</a>
           </div>
           <div class="card">
             <img src="./images/chair.png" alt="кресло">
-            <p class="chair_text">Парикмахерское кресло "Норм" гидравлическое</p>
-            <p class="chair_price">9900 &#8381</p>
-            <a href="/" class="buy_button">Купить</a>
+            <p class="card_text">Парикмахерское кресло "Норм" гидравлическое</p>
+            <p class="card_price">9900 &#8381</p>
+            <a href="/" class="card_button">Купить</a>
           </div>
           <div class="card">
             <img src="./images/chair.png" alt="кресло">
-            <p class="chair_text">Парикмахерское кресло "Норм" гидравлическое</p>
-            <p class="chair_price">9900 &#8381</p>
-            <a href="/" class="buy_button">Купить</a>
+            <p class="card_text">Парикмахерское кресло "Норм" гидравлическое</p>
+            <p class="card_price">9900 &#8381</p>
+            <a href="/" class="card_button">Купить</a>
           </div>
           <div class="card">
             <img src="./images/chair.png" alt="кресло">
-            <p class="chair_text">Парикмахерское кресло "Норм" гидравлическое</p>
-            <p class="chair_price">9900 &#8381</p>
-            <a href="/" class="buy_button">Купить</a>
+            <p class="card_text">Парикмахерское кресло "Норм" гидравлическое</p>
+            <p class="card_price">9900 &#8381</p>
+            <a href="/" class="card_button">Купить</a>
           </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <div class="wrapper">
-        <div class="info_cards">
-          <div class="bonus">
-            <div class="bonus_info">
-              <h3>Получайте бонусы и подарки</h3>
-              <p class="info_cards_text">Каждый месяц разыгрываем 10 000 рублей для наших клиентов</p>
-              <input
-                class="email_input"
-                type="email" 
-                name="user-email" 
-                placeholder="Введите email">
-            </div>
-            <div class="bonus_img">
-              <img src="./images/mail.png" alt="конверт">
-            </div>
+      </section>
+      <section class="information">
+        <div class="block">
+          <div class="block_description">
+            <h3>Получайте бонусы и подарки</h3>
+            <p class="mail_text_width">Каждый месяц разыгрываем 10000 рублей для наших клиентов</p>
+            <input
+              class="block_email_input"
+              type="email" 
+              name="user-email" 
+              placeholder="Введите email">
           </div>
-          <div class="map">
-            <div class="map_info">
-              <h3>Заходите к нам</h3>
-              <p class="info_cards_text">Более 300 магазинов по всей Парсии</p>
-              <a href="/" class="map_link">Карта магазинов</a>
-            </div>
-            <div class="map_img">
-              <img src="./images/map.png" alt="машинка">
-            </div>
+          <div class="block_img">
+            <img src="./images/mail.png" alt="конверт">
           </div>
         </div>
-      </div>
-    </section>
-    <section class="logo">
-      <div class="wrapper">
-        <div class="logo_array">
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
+        <div class="block">
+          <div class="block_description">
+            <h3>Заходите к нам</h3>
+            <p class="map_text_width">Более 300 магазинов по всей Парсии</p>
+            <a href="/" class="block_link">Карта магазинов</a>
           </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
-          </div>
-          <div class="logo_item">
-            <a href="/">
-              <img src="./images/impuls.png" alt="логотип">
-            </a>
+          <div class="block_img">
+            <img src="./images/map.png" alt="машинка">
           </div>
         </div>
-      </div>
-    </section>
-    <section class="chair_history">
-      <div class="wrapper">
+      </section>
+      <section class="logo">
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+        <a href="/" class="logo_item">
+          <img src="./images/impuls.png" alt="логотип">
+        </a>
+      </section>
+      <section class="chair_history">
         <h2>Вы недавно смотрели</h2>
         <div class="chair_list">
           <div class="card">
             <img src="./images/chair.png" alt="кресло">
-            <p class="chair_text">Парикмахерское кресло "Норм" гидравлическое</p>
-            <p class="chair_price">9900 &#8381</p>
-            <a href="/" class="buy_button">Купить</a>
+            <p class="card_text">Парикмахерское кресло "Норм" гидравлическое</p>
+            <p class="card_price">9900 &#8381</p>
+            <a href="/" class="card_button">Купить</a>
           </div>
           <div class="card">
             <img src="./images/chair.png" alt="кресло">
-            <p class="chair_text">Парикмахерское кресло "Норм" гидравлическое</p>
-            <p class="chair_price">9900 &#8381</p>
-            <a href="/" class="buy_button">Купить</a>
+            <p class="card_text">Парикмахерское кресло "Норм" гидравлическое</p>
+            <p class="card_price">9900 &#8381</p>
+            <a href="/" class="card_button">Купить</a>
           </div>
           <div class="card">
             <img src="./images/chair.png" alt="кресло">
-            <p class="chair_text">Парикмахерское кресло "Норм" гидравлическое</p>
-            <p class="chair_price">9900 &#8381</p>
-            <a href="/" class="buy_button">Купить</a>
+            <p class="card_text">Парикмахерское кресло "Норм" гидравлическое</p>
+            <p class="card_price">9900 &#8381</p>
+            <a href="/" class="card_button">Купить</a>
           </div>
           <div class="card">
             <img src="./images/chair.png" alt="кресло">
-            <p class="chair_text">Парикмахерское кресло "Норм" гидравлическое</p>
-            <p class="chair_price">9900 &#8381</p>
-            <a href="/" class="buy_button">Купить</a>
+            <p class="card_text">Парикмахерское кресло "Норм" гидравлическое</p>
+            <p class="card_price">9900 &#8381</p>
+            <a href="/" class="card_button">Купить</a>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </main>
   <footer>
     <section class="categories">
@@ -275,54 +238,50 @@
         </div>
       </div>
     </section>
-      <!-- <div class="line_categories line_footer"></div> -->
     <section class="contacts_info">
       <div class="wrapper">
-        <div class="wrapper">
-          <div class="contacts_block">
-            <div class="socials">
-              <div class="ytube">
-                <a href="/">
-                  <div class="link_logo">
-                    <img src="./logo_socials/ytube.png" alt="youtube">
-                  </div>
-                </a>
-              </div>
-              <div class="vk">
-                <a href="/">
-                  <div class="link_logo">
-                    <img src="./logo_socials/vk.png" alt="vk">
-                  </div>
-                </a>
-              </div>
-              <div class="fb">
-                <a href="/">
-                  <div class="link_logo">
-                    <img src="./logo_socials/fb.png" alt="fb">
-                  </div>
-                </a>
-              </div>
-              <div class="insta">
-                <a href="/">
-                  <div class="link_logo">
-                    <img src="./logo_socials/insta.png" alt="insta">
-                  </div>
-                </a>
-              </div>
+        <div class="contacts_block">
+          <div class="socials">
+            <div class="ytube">
+              <a href="/">
+                <div class="link_logo">
+                  <img src="./logo_socials/ytube.png" alt="youtube">
+                </div>
+              </a>
             </div>
-            <div class="call_centr">
-              <a href="tel:+88121234567">8 (812) 123-45-67</a>
-              <button 
-                type="button"
-                class="call_back_button">
-                Обратный звонок
-              </button>
+            <div class="vk">
+              <a href="/">
+                <div class="link_logo">
+                  <img src="./logo_socials/vk.png" alt="vk">
+                </div>
+              </a>
             </div>
+            <div class="fb">
+              <a href="/">
+                <div class="link_logo">
+                  <img src="./logo_socials/fb.png" alt="fb">
+                </div>
+              </a>
+            </div>
+            <div class="insta">
+              <a href="/">
+                <div class="link_logo">
+                  <img src="./logo_socials/insta.png" alt="insta">
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="call_centr">
+            <a href="tel:+88121234567">8 (812) 123-45-67</a>
+            <button 
+              type="button"
+              class="call_centr_button">
+              Обратный звонок
+            </button>
           </div>
         </div>
       </div>
     </section>
-    <!-- </section> -->
     <div class="wrapper">
       <div class="footer_info">
         <p>Лучший магазин (с) 2019 Все права защищены. Интернет-магазин оборудования для салонов красоты</p>
